@@ -1,0 +1,154 @@
+
+
+  .para1{
+    background-color: rgba(240, 75, 190, 0.773);
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+  
+    color: white;
+ 
+  position: relative;
+  top: 70px;
+}
+
+.part1{
+    position: relative;
+ 
+    background-color: rgb(250, 222, 238);
+    height: 400px;
+    top: 50px;
+    margin: 0 auto;
+}
+.img2{
+   position: relative;
+   bottom: 250px;
+}
+
+.btn1 ,.btn2{
+   
+    height: 55px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+}
+.btn1{
+    background-color: rgb(153, 18, 194);
+
+}
+.btn2{
+    background-color: rgb(71, 199, 249);
+}
+.part2{
+    background-color:white;
+      height: auto;
+    width: 100%;
+   padding: 50px;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+.part2 h3{
+    margin-top: 100px;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+}.pink{
+    font-size: 15px;
+    font-weight: 400;
+    color: palevioletred;
+    box-sizing: content-box;
+    border-bottom: 4px solid rgb(254, 213, 220);
+    width: 200px;
+}
+.part44{
+    padding: 50px;
+}
+.part3{
+    background-color: rgb(240, 240, 254);
+    height: auto;
+   padding: 50px;
+
+}
+  .part55 {
+    text-align: center;
+    border: 10px solid navy;
+    box-sizing: content-box;
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.part5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    height: 320px;
+}
+
+.part5 img {
+    max-width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .part55 {
+        width: 100%; 
+        max-width: none; 
+        height: auto; 
+        border: none; 
+        padding: 10px; 
+    }
+
+    .part5 {
+        height: auto;
+        flex-direction: column; 
+        text-align: center; 
+    }
+}
+
+  .b1{
+    height: 140px;
+    width: 140px;
+  }
+  .Badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+  }
+  .part6{
+    background-color: rgb(250, 222, 238);
+   text-align: center;
+   align-items: center;
+   height: auto;
+   padding: 70px;
+  }
+  ol li{
+    display: flex;
+    list-style-type: none;
+  }
+  .div2 img{
+   
+height: 25px;
+width: 40px;
+justify-content: space-evenly;
+
+  }
+  .col-logo{
+    padding: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  @media (max-width: 768px) {
+    .part7 {
+        display: none; 
+    }
+}
+@media(max-width:768px){
+  .img2{
+    display: none;
+  }
+}
